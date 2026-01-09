@@ -5,27 +5,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="container">
 <div class="card">
 <h2>Chapter 5: Laboratory Work & Practical Learning</h2>
 
 <h3>Python-based Data Analysis</h3>
-<p>Python tools were used to analyze datasets.</p>
+<p>Analyze datasets using Python libraries (Pandas, NumPy, Matplotlib).</p>
 
 <h3>Data Cleaning & Visualization</h3>
-<p>Removing errors and visualizing data using graphs.</p>
+<p>Remove errors and visualize data using graphs for insights.</p>
 
 <h3>Histogram & Boxplot Generation</h3>
-<p>Used for understanding distribution patterns.</p>
+<p>Used to understand data distributions visually.</p>
 
 <h3>Hypothesis Testing Using Real Data</h3>
-<p>Applied tests on real-world datasets.</p>
+<p>Apply tests like t-test or chi-square to real datasets.</p>
 
 <a href="index.html">⬅ Back to Home</a>
 </div>
 </div>
-
 </body>
 </html>
-
