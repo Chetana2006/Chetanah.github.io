@@ -5,44 +5,45 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="container">
 <div class="card">
 <h2>Chapter 1: Description of Data</h2>
 
-<h3>Introduction to Data</h3>
-<p>Data are raw facts and figures collected for analysis. Statistical methods help summarize and interpret data meaningfully.</p>
+<h3>Introduction</h3>
+<p>Data refers to collected facts and observations. It can be analyzed using statistical methods to make decisions.</p>
 
 <h3>Types of Variables</h3>
-<p>Variables are classified as qualitative (categorical) and quantitative (discrete or continuous).</p>
+<ul>
+<li>Qualitative (categorical): e.g., gender, color</li>
+<li>Quantitative: Numerical (Discrete & Continuous)</li>
+</ul>
 
 <h3>Mean & Weighted Mean</h3>
-<p>The mean is the average value. Weighted mean assigns importance to values using weights.</p>
+<p>Mean is the average; Weighted Mean assigns weights to values.</p>
 
 <h3>Median & Mode</h3>
-<p>Median is the middle value; mode is the most frequent observation.</p>
+<p>Median is the middle value; Mode is the most frequent.</p>
 
 <h3>Quartiles</h3>
-<p>Quartiles divide data into four equal parts, helping understand data spread.</p>
+<p>Divides data into four equal parts: Q1, Q2, Q3.</p>
 
 <h3>Variance</h3>
-<p>Variance measures how far data values spread from the mean.</p>
+<p>Measures spread of data from the mean.</p>
 
 <h3>Coefficient of Variation</h3>
-<p>It compares variability relative to the mean and is expressed as a percentage.</p>
+<p>Relative measure of dispersion: CV = (SD / Mean) × 100</p>
 
 <h3>Skewness</h3>
-<p>Skewness shows asymmetry in data distribution: positive, negative, or symmetric.</p>
+<p>Indicates asymmetry of data: positive, negative, or symmetric.</p>
 
 <h3>Histogram</h3>
-<p>A histogram visually represents frequency distribution using bars.</p>
+<p>Graphical frequency distribution.</p>
 
 <h3>Box Plot</h3>
-<p>Box plots summarize data using quartiles and identify outliers.</p>
+<p>Shows min, Q1, median, Q3, max; identifies outliers.</p>
 
 <a href="index.html">⬅ Back to Home</a>
 </div>
 </div>
-
 </body>
 </html>
