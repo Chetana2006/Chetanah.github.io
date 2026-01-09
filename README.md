@@ -2,21 +2,21 @@
 
 **Name:** Chetana  
 **Course:** Engineering Mathematics  
-**Semester:** I  
+**Semester:** III 
 
 ## 📌 About This Portfolio
-This repository contains my Mathematics Portfolio created using **HTML and CSS**.
+This repository contains my Mathematics Portfolio created using **HTML and CSS**
 It includes all the topics and concepts I learned during the entire semester.
 
 ## 📚 Contents
-- Differential Calculus  
-- Integral Calculus  
-- Matrices and Determinants  
-- Probability  
-- Applications of Mathematics  
+1. Description of Data
+2. Probability
+3. Random Variables & Distributions
+4. Statistical Inference
+5. Laboratory Work & Practical Learning
 
 ## 🌐 Live Portfolio Link
-👉 https://yourusername.github.io
+👉 https://Chetanah.github.io
 
 ## 🛠 Technologies Used
 - HTML5  
@@ -24,4 +24,4 @@ It includes all the topics and concepts I learned during the entire semester.
 - GitHub Pages  
 
 ## 📩 Contact
-Email: yourmail@gmail.com
+Email: 01fe25bcs723kletech.ac.in
