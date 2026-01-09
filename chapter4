@@ -5,30 +5,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="container">
 <div class="card">
 <h2>Chapter 4: Statistical Inference</h2>
 
 <h3>Sampling Methods</h3>
-<p>Sampling selects representative data from a population.</p>
+<p>Select representative data from a population (Random, Stratified, Systematic).</p>
 
 <h3>Confidence Intervals</h3>
-<p>Confidence intervals estimate population parameters.</p>
+<p>Estimate population parameters with a given confidence level.</p>
 
 <h3>Sample Size Determination</h3>
-<p>Determines required data size for accuracy.</p>
+<p>Calculate how much data is needed for accurate results.</p>
 
 <h3>Hypothesis Testing</h3>
-<p>Used to make decisions using sample data.</p>
+<p>Decision-making process using sample data to accept or reject a hypothesis.</p>
 
 <h3>Z-test & t-test</h3>
-<p>Statistical tests for population mean and proportion.</p>
+<p>Tests used to compare sample and population means.</p>
 
 <a href="index.html">⬅ Back to Home</a>
 </div>
 </div>
-
 </body>
 </html>
-
