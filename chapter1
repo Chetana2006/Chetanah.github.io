@@ -1,57 +1,84 @@
-<section>
+<section class="chapter-section">
   <h2>Chapter 1: Description of Data</h2>
 
-  <h3>1.1 Types of Data and Variables</h3>
+  <h3>1. Introduction to Data</h3>
   <p>
-    Data refers to a collection of facts, numbers, or observations used for analysis.
-    Data can be classified into qualitative (categorical) and quantitative (numerical).
-    Quantitative data can further be divided into discrete and continuous data.
+    Data refers to a collection of facts, figures, observations, or measurements
+    collected for analysis. In statistics, data is used to understand patterns,
+    make decisions, and draw conclusions about real-world situations.
   </p>
 
-  <h3>1.2 Measures of Central Tendency</h3>
+  <h3>2. Types of Variables</h3>
   <p>
-    Measures of central tendency describe the central value of a dataset.
-    The most commonly used measures are:
-  </p>
-  <ul>
-    <li><strong>Mean:</strong> The average of all observations</li>
-    <li><strong>Median:</strong> The middle value when data is arranged in order</li>
-    <li><strong>Mode:</strong> The most frequently occurring value</li>
-  </ul>
-
-  <h3>1.3 Measures of Dispersion</h3>
-  <p>
-    Measures of dispersion indicate how spread out the data values are.
-    They help understand the variability within a dataset.
+    Variables are characteristics that can take different values.
+    They are broadly classified into:
   </p>
   <ul>
-    <li>Range</li>
-    <li>Mean Deviation</li>
-    <li>Variance</li>
-    <li>Standard Deviation</li>
+    <li><b>Qualitative Variables:</b> Non-numerical data such as gender, color, or category.</li>
+    <li><b>Quantitative Variables:</b> Numerical data such as height, weight, or marks.</li>
+    <li><b>Discrete Variables:</b> Countable values (e.g., number of students).</li>
+    <li><b>Continuous Variables:</b> Measurable values (e.g., time, temperature).</li>
   </ul>
 
-  <h3>1.4 Skewness and Data Distribution</h3>
+  <h3>3. Mean</h3>
   <p>
-    Skewness describes the asymmetry of a data distribution.
+    The mean is the average of a set of observations. It is calculated by dividing
+    the sum of all values by the total number of observations.
+  </p>
+  <p><b>Formula:</b> Mean = (Sum of observations) / (Number of observations)</p>
+
+  <h3>4. Weighted Mean</h3>
+  <p>
+    The weighted mean is an average where each value is multiplied by its
+    corresponding weight. It is useful when all observations do not have equal importance.
+  </p>
+
+  <h3>5. Median</h3>
+  <p>
+    The median is the middle value of an ordered data set. It divides the data
+    into two equal parts.
+  </p>
+
+  <h3>6. Mode</h3>
+  <p>
+    The mode is the value that occurs most frequently in a data set.
+    A data set may have one mode, more than one mode, or no mode.
+  </p>
+
+  <h3>7. Quartiles</h3>
+  <p>
+    Quartiles divide the data into four equal parts.
+    The three quartiles are Q1 (lower quartile), Q2 (median), and Q3 (upper quartile).
+  </p>
+
+  <h3>8. Variance</h3>
+  <p>
+    Variance measures how far the data values are spread from the mean.
+    A higher variance indicates greater dispersion in the data.
+  </p>
+
+  <h3>9. Coefficient of Variation</h3>
+  <p>
+    The coefficient of variation is a relative measure of dispersion.
+    It is expressed as a percentage and compares variability between data sets.
+  </p>
+  <p><b>Formula:</b> CV = (Standard Deviation / Mean) × 100</p>
+
+  <h3>10. Skewness</h3>
+  <p>
+    Skewness indicates the asymmetry of a distribution.
     A distribution can be positively skewed, negatively skewed, or symmetrical.
-    Understanding skewness helps in interpreting real-world data behavior.
   </p>
 
-  <h3>1.5 Data Visualization</h3>
+  <h3>11. Histogram</h3>
   <p>
-    Data visualization involves representing data in graphical form
-    to make interpretation easier. Common visualization techniques include:
+    A histogram is a graphical representation of frequency distribution
+    using contiguous rectangles. It helps visualize the shape of data distribution.
   </p>
-  <ul>
-    <li>Bar Charts</li>
-    <li>Pie Charts</li>
-    <li>Histograms</li>
-    <li>Line Graphs</li>
-  </ul>
 
+  <h3>12. Box Plot</h3>
   <p>
-    Visualization techniques help in identifying patterns, trends,
-    and relationships within the data effectively.
+    A box plot is a graphical representation that shows the minimum,
+    first quartile, median, third quartile, and maximum values of a data set.
   </p>
 </section>
