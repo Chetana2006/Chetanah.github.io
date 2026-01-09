@@ -1,95 +1,112 @@
-<link rel="stylesheet" href="style.css">
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chapter 2 – Probability</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-<div class="card">
-<h2>Chapter 2: Probability</h2>
 
-<h3>Definition of Probability</h3>
-<p>Probability is the likelihood that an event will occur (0 ≤ P ≤ 1).Probability of an event is defined as the ratio of the number of favorable outcomes to the total number of equally likely outcomes.
+  <div class="container">
+    <div class="card">
 
+      <h2>Chapter 2: Probability</h2>
+
+      <h3>Definition of Probability</h3>
+      <p>
+        Probability is the likelihood that an event will occur (<strong>0 ≤ P ≤ 1</strong>). 
+        It is defined as the ratio of the number of favorable outcomes to the total number of equally likely outcomes.
+      </p>
+      <pre>
 Mathematical Definition:
-
 P(A) = Number of favorable outcomes / Total number of outcomes
-
-The value of probability always lies between 0 and 1:
 
 P(A) = 0 → Event is impossible
 P(A) = 1 → Event is certain
-0 < P(A) < 1 → Event is uncertain</p>
+0 < P(A) < 1 → Event is uncertain
+      </pre>
 
-<h3>Types of Events</h3>
-<ul>
-<li>Simple Event</li>
-<li>Compound Event</li>
-<li>Independent & Dependent Events</li>
-<li>Mutually Exclusive Events</li>
-</ul>
+      <h3>Types of Events</h3>
+      <ul>
+        <li>Simple Event</li>
+        <li>Compound Event</li>
+        <li>Independent & Dependent Events</li>
+        <li>Mutually Exclusive Events</li>
+      </ul>
 
-<h3>Addition & Multiplication Rules</h3>
-<p>Probability can be interpreted in different ways depending on the nature of the experiment and available information. The main interpretations are:
+      <h3>Addition & Multiplication Rules</h3>
+      <p>
+        Probability can be interpreted in different ways depending on the experiment and available information:
+      </p>
 
-1. Classical Interpretation
-This interpretation applies when all outcomes of an experiment are equally likely.
-
-Formula:
-
-P(A) = n(A) / n(S)
+      <ol>
+        <li>
+          <strong>Classical Interpretation:</strong> Applies when all outcomes are equally likely.
+          <pre>
+Formula: P(A) = n(A) / n(S)
 
 Example:
-
 Experiment: Tossing a fair die
 Event A: Getting an even number
 Favorable outcomes = {2, 4, 6}
 Total outcomes = 6
 P(A) = 3/6 = 1/2
-2. Empirical (Relative Frequency) Interpretation
-Probability is defined as the ratio of the number of times an event occurs to the total number of trials, when the experiment is repeated a large number of times.
-
-Formula:
-
-P(A) = lim (Number of times A occurs / Total trials)
+          </pre>
+        </li>
+        <li>
+          <strong>Empirical (Relative Frequency) Interpretation:</strong> Probability is the ratio of the number of times an event occurs to the total trials in repeated experiments.
+          <pre>
+Formula: P(A) = lim (Number of times A occurs / Total trials)
 
 Example:
-
 A machine produces defective items 20 times in 1000 trials
 Probability of defect = 20 / 1000 = 0.02
-3. Subjective Interpretation
-Subjective probability is based on personal judgment, experience, or belief rather than mathematical calculation.
-
+          </pre>
+        </li>
+        <li>
+          <strong>Subjective Interpretation:</strong> Based on personal judgment, experience, or belief.
+          <pre>
 Example:
-
 Probability of rain tomorrow based on weather forecast = 0.7
-Probability of project completion on time based on experience = 0.8.</p>
+Probability of project completion on time based on experience = 0.8
+          </pre>
+        </li>
+      </ol>
 
-<h3>Applications of probability</h3>
-<p> Risk analysis and reliability engineering
-Machine learning and artificial intelligence
-Network traffic modeling
-Quality control and defect prediction
-Weather forecasting and decision-making
-Financial modeling and investment analysis
-Probability enables engineers and analysts to make informed decisions under uncertainty and optimize system performance.Probability of an event given another event has occurred: P(A|B) = P(A∩B)/P(B)</p>
+      <h3>Applications of Probability</h3>
+      <ul>
+        <li>Risk analysis and reliability engineering</li>
+        <li>Machine learning and artificial intelligence</li>
+        <li>Network traffic modeling</li>
+        <li>Quality control and defect prediction</li>
+        <li>Weather forecasting and decision-making</li>
+        <li>Financial modeling and investment analysis</li>
+      </ul>
+      <p>
+        Probability enables informed decisions under uncertainty and optimizes system performance.
+        Conditional probability formula: 
+        <strong>P(A|B) = P(A ∩ B) / P(B)</strong>
+      </p>
 
-<h3>Bayes’ Theorem</h3>
-<p>Bayes’ Theorem is a fundamental result in probability theory that provides a method for updating the probability of an event based on new information.
-  It relates conditional probabilities of events and allows reverse inference.This theorem forms the backbone of Bayesian statistics, machine learning, artificial intelligence, and decision-making systems.Updates probability based on prior knowledge: P(A|B) = [P(B|A) × P(A)] / P(B)
-Statement of Bayes’ Theorem
-If A and B are two events such that P(B) ≠ 0, then the conditional probability of A given B is given by:
+      <h3>Bayes’ Theorem</h3>
+      <p>
+        Bayes’ Theorem provides a method for updating the probability of an event based on new information. 
+        It is widely used in Bayesian statistics, machine learning, AI, and decision-making systems.
+      </p>
+      <pre>
+Statement:
+If A and B are two events such that P(B) ≠ 0, then
 
 P(A | B) = [ P(B | A) × P(A) ] / P(B)
 
-This formula allows us to compute the probability of a cause (A) given the observed effect (B).</p>
+This formula allows computation of the probability of a cause (A) given an observed effect (B).
+      </pre>
 
-<a href="index.html">⬅ Back to Home</a>
-</div>
-</div>
+      <a href="index.html">⬅ Back to Home</a>
+
+    </div>
+  </div>
+
 </body>
 </html>
-<a href="index.html">⬅ Back to Home</a>
-
