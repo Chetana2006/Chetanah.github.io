@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chapter 4 – Statistical Inference</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<div class="card">
+<h2>Chapter 4: Statistical Inference</h2>
+
+<h3>Sampling Methods</h3>
+<p>Sampling selects representative data from a population.</p>
+
+<h3>Confidence Intervals</h3>
+<p>Confidence intervals estimate population parameters.</p>
+
+<h3>Sample Size Determination</h3>
+<p>Determines required data size for accuracy.</p>
+
+<h3>Hypothesis Testing</h3>
+<p>Used to make decisions using sample data.</p>
+
+<h3>Z-test & t-test</h3>
+<p>Statistical tests for population mean and proportion.</p>
+
+<a href="index.html">⬅ Back to Home</a>
+</div>
+</div>
+
+</body>
+</html>
 
