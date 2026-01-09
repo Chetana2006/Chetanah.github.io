@@ -11,7 +11,17 @@
 <h2>Chapter 2: Probability</h2>
 
 <h3>Definition of Probability</h3>
-<p>Probability is the likelihood that an event will occur (0 ≤ P ≤ 1).</p>
+<p>Probability is the likelihood that an event will occur (0 ≤ P ≤ 1).Probability of an event is defined as the ratio of the number of favorable outcomes to the total number of equally likely outcomes.
+
+Mathematical Definition:
+
+P(A) = Number of favorable outcomes / Total number of outcomes
+
+The value of probability always lies between 0 and 1:
+
+P(A) = 0 → Event is impossible
+P(A) = 1 → Event is certain
+0 < P(A) < 1 → Event is uncertain</p>
 
 <h3>Types of Events</h3>
 <ul>
@@ -22,13 +32,59 @@
 </ul>
 
 <h3>Addition & Multiplication Rules</h3>
-<p>Used to calculate probability of combined events.</p>
+<p>Probability can be interpreted in different ways depending on the nature of the experiment and available information. The main interpretations are:
 
-<h3>Conditional Probability</h3>
-<p>Probability of an event given another event has occurred: P(A|B) = P(A∩B)/P(B)</p>
+1. Classical Interpretation
+This interpretation applies when all outcomes of an experiment are equally likely.
+
+Formula:
+
+P(A) = n(A) / n(S)
+
+Example:
+
+Experiment: Tossing a fair die
+Event A: Getting an even number
+Favorable outcomes = {2, 4, 6}
+Total outcomes = 6
+P(A) = 3/6 = 1/2
+2. Empirical (Relative Frequency) Interpretation
+Probability is defined as the ratio of the number of times an event occurs to the total number of trials, when the experiment is repeated a large number of times.
+
+Formula:
+
+P(A) = lim (Number of times A occurs / Total trials)
+
+Example:
+
+A machine produces defective items 20 times in 1000 trials
+Probability of defect = 20 / 1000 = 0.02
+3. Subjective Interpretation
+Subjective probability is based on personal judgment, experience, or belief rather than mathematical calculation.
+
+Example:
+
+Probability of rain tomorrow based on weather forecast = 0.7
+Probability of project completion on time based on experience = 0.8.</p>
+
+<h3>Applications of probability</h3>
+<p> Risk analysis and reliability engineering
+Machine learning and artificial intelligence
+Network traffic modeling
+Quality control and defect prediction
+Weather forecasting and decision-making
+Financial modeling and investment analysis
+Probability enables engineers and analysts to make informed decisions under uncertainty and optimize system performance.Probability of an event given another event has occurred: P(A|B) = P(A∩B)/P(B)</p>
 
 <h3>Bayes’ Theorem</h3>
-<p>Updates probability based on prior knowledge: P(A|B) = [P(B|A) × P(A)] / P(B)</p>
+<p>Bayes’ Theorem is a fundamental result in probability theory that provides a method for updating the probability of an event based on new information.
+  It relates conditional probabilities of events and allows reverse inference.This theorem forms the backbone of Bayesian statistics, machine learning, artificial intelligence, and decision-making systems.Updates probability based on prior knowledge: P(A|B) = [P(B|A) × P(A)] / P(B)
+Statement of Bayes’ Theorem
+If A and B are two events such that P(B) ≠ 0, then the conditional probability of A given B is given by:
+
+P(A | B) = [ P(B | A) × P(A) ] / P(B)
+
+This formula allows us to compute the probability of a cause (A) given the observed effect (B).</p>
 
 <a href="index.html">⬅ Back to Home</a>
 </div>
