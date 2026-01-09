@@ -39,7 +39,7 @@
     <h3>Mean and Weighted Mean</h3>
     <p>
       The <strong>mean</strong> The mean is a measure of central tendency obtained by adding all the observations in a data set and dividing the sum by the total number of observations.
-      It represents the average value of the data.
+      It represents the average value of the data.A box plot is a graphical method used to display the distribution of data based on the five-number summary: minimum, first quartile (Q1), median, third quartile (Q3), and maximum. It helps in identifying the spread, central value, and presence of outliers in the data.
 
 Formula:
 Mean = (Sum of all observations) / (Number of observations)
@@ -58,12 +58,59 @@ where xᵢ are the observations and wᵢ are their respective weights.
     <p>
       The <strong>median</strong> is the middle value when data is arranged
       in ascending or descending order.The median is a measure of central tendency that represents the middle value of a data set when the observations are arranged in ascending or descending order. 
-      If the number of observations is even, the median is the average of the two middle values.
+      If the number of observations is even, the median is the average of the two middle values.Median for Discrete Data
+The median is the middle value when data is arranged in ascending or descending order.
+
+Steps:
+
+Arrange data in order
+If n is odd → Median = middle value
+If n is even → Median = average of two middle values
+Example:
+
+Data: 15, 20, 25, 30, 35
+Median = 25
+Median for Continuous (Grouped) Data
+The median is calculated using the median class and cumulative frequency.
+
+Formula:
+
+Median = l + [( (N/2) − cf ) / f ] × h
+
+Where:
+
+l = lower boundary of median class
+N = total frequency
+cf = cumulative frequency before median class
+f = frequency of median class
+h = class width
+Median is preferred for skewed data such as income, network latency, or response time analysis.
     </p>
     <p>
       The <strong>mode</strong> is the value that occurs most frequently
       in the data set.The mode is the value that occurs most frequently in a data set.
-      A data set may have one mode (unimodal), more than one mode (bimodal or multimodal), or no mode at all.
+      A data set may have one mode (unimodal), more than one mode (bimodal or multimodal), or no mode at all.Mode for Discrete Data
+Mode is the value that occurs most frequently in a dataset.
+
+Example:
+
+Data: 2, 4, 4, 6, 8
+Mode = 4
+Mode for Continuous (Grouped) Data
+Mode is calculated using the modal class (class with highest frequency).
+
+Formula:
+
+Mode = l + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h
+
+Where:
+
+l = lower boundary of modal class
+f₁ = frequency of modal class
+f₀ = frequency of preceding class
+f₂ = frequency of succeeding class
+h = class width
+Mode is especially useful for categorical data and market demand analysis.
     </p>
 
     <h3>Quartiles</h3>
@@ -115,14 +162,58 @@ Zero Skewness: The distribution is symmetric.
       A histogram is a graphical representation of frequency distribution
       using bars. It helps visualize the shape and spread of data.A histogram is a graphical representation of the frequency distribution of a continuous data set.
       It uses adjacent rectangles (bars) to show the number of observations falling within specified class intervals.
-      The width of each bar represents the class interval, and the height represents the frequency.
+      The width of each bar represents the class interval, and the height represents the frequency.A histogram represents the frequency distribution of continuous data. Data is grouped into class intervals, and rectangles are drawn whose heights represent frequencies.
+
+Example
+Consider marks obtained by students in an exam:
+
+Marks: 40, 45, 50, 55, 60, 60, 65, 70, 75, 80
+Class intervals of width 10 are formed:
+
+40–50 : 2
+50–60 : 3
+60–70 : 3
+70–80 : 2
+Histogram Representation
+40–50
+50–60
+60–70
+70–80
+Frequency
+Marks
+Applications of Histogram
+Analyzing data distribution
+Identifying skewness
+Quality control in manufacturing
+Performance analysis in engineering systems
     </p>
 
     <h3>Box Plot</h3>
     <p>
       A box plot summarizes data using minimum value, quartiles, median,
       and maximum value. It is useful for detecting outliers.
-      A box plot is a graphical method used to display the distribution of data based on the five-number summary: minimum, first quartile (Q1), median, third quartile (Q3), and maximum. It helps in identifying the spread, central value, and presence of outliers in the data.
+      A box plot is a graphical method used to display the distribution of data based on the five-number summary: minimum, first quartile (Q1), median, third quartile (Q3), and maximum. It helps in identifying the spread, central value, and presence of outliers in the data.A box plot (box-and-whisker plot) is a graphical representation based on the five-number summary: minimum, first quartile (Q₁), median (Q₂), third quartile (Q₃), and maximum.
+
+Example
+Consider the dataset:
+
+Data: 10, 20, 25, 30, 35, 40, 45
+Minimum = 10
+Q₁ = 20
+Median (Q₂) = 30
+Q₃ = 40
+Maximum = 45
+Box Plot Representation
+Min
+Q₁
+Median
+Q₃
+Max
+Applications of Box Plot
+Detecting outliers
+Comparing multiple datasets
+Understanding data spread and symmetry
+Exploratory Data Analysis (EDA) in ML
     </p>
 
     <a href="index.html">⬅ Back to Home</a>
