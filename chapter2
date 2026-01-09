@@ -1,75 +1,33 @@
-<section>
-  <h2>Chapter 2: Probability</h2>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chapter 2 – Probability</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <h3>2.1 Definition of Probability</h3>
-  <p>
-    Probability is a numerical measure of the likelihood that an event will occur.
-    It is defined as the ratio of the number of favorable outcomes to the total
-    number of equally likely outcomes.
-  </p>
-  <p>
-    The value of probability always lies between 0 and 1, where 0 indicates an
-    impossible event and 1 indicates a certain event.
-  </p>
+<div class="container">
+<div class="card">
+<h2>Chapter 2: Probability</h2>
 
-  <h3>2.2 Types of Events</h3>
-  <p>
-    Events are the possible outcomes of a random experiment. The different types
-    of events are:
-  </p>
-  <ul>
-    <li><strong>Simple Event:</strong> An event consisting of a single outcome</li>
-    <li><strong>Compound Event:</strong> An event consisting of more than one outcome</li>
-    <li><strong>Independent Events:</strong> Events where the occurrence of one does not affect the other</li>
-    <li><strong>Dependent Events:</strong> Events where the occurrence of one affects the probability of another</li>
-    <li><strong>Mutually Exclusive Events:</strong> Events that cannot occur simultaneously</li>
-  </ul>
+<h3>Definition of Probability</h3>
+<p>Probability measures the likelihood of an event occurring.</p>
 
-  <h3>2.3 Addition and Multiplication Rules</h3>
-  <p>
-    The addition and multiplication rules are used to calculate probabilities
-    of combined events.
-  </p>
-  <ul>
-    <li>
-      <strong>Addition Rule:</strong>
-      The probability that either of two mutually exclusive events occurs is the
-      sum of their individual probabilities.
-    </li>
-    <li>
-      <strong>Multiplication Rule:</strong>
-      The probability that two independent events occur together is the product
-      of their individual probabilities.
-    </li>
-  </ul>
+<h3>Types of Events</h3>
+<p>Events can be simple, compound, independent, dependent, mutually exclusive, or exhaustive.</p>
 
-  <h3>2.4 Conditional Probability</h3>
-  <p>
-    Conditional probability is the probability of an event occurring given that
-    another event has already occurred.
-  </p>
-  <p>
-    It is denoted as P(A|B) and is calculated using the formula:
-  </p>
-  <p>
-    <em>P(A|B) = P(A ∩ B) / P(B)</em>
-  </p>
+<h3>Addition & Multiplication Rules</h3>
+<p>These rules calculate probabilities of combined events.</p>
 
-  <h3>2.5 Bayes’ Theorem</h3>
-  <p>
-    Bayes’ Theorem is used to determine the probability of an event based on
-    prior knowledge of related events.
-  </p>
-  <p>
-    It provides a way to update probabilities when new information becomes
-    available and is widely used in statistics, data science, and machine learning.
-  </p>
+<h3>Conditional Probability</h3>
+<p>It measures the probability of an event given another event has occurred.</p>
 
-  <p>
-    The formula for Bayes’ Theorem is:
-  </p>
-  <p>
-    <em>P(A|B) = [P(B|A) × P(A)] / P(B)</em>
-  </p>
-</section>
+<h3>Bayes’ Theorem</h3>
+<p>Bayes’ theorem updates probabilities using prior knowledge.</p>
 
+<a href="index.html">⬅ Back to Home</a>
+</div>
+</div>
+
+</body>
+</html>
