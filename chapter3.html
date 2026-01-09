@@ -11,20 +11,68 @@
 <h2>Chapter 3: Random Variables & Distributions</h2>
 
 <h3>Discrete & Continuous Variables</h3>
-<p>Discrete variables have countable values; continuous have infinite values.</p>
+<p>A random variable is a numerical quantity whose value depends on the outcome of a random experiment. 
+  Random variables are used to quantify uncertainty in probabilistic and statistical analysis.
+  Random variables are broadly classified into:
+ Discrete Random Variables Continuous Random VariablesDiscrete variables have countable values; continuous have infinite values.</p>
 
 <h3>Probability Mass Function (PMF)</h3>
-<p>Assigns probabilities to discrete random variables.</p>
+<p>A Probability Mass Function (PMF) describes the probability distribution of a discrete random variable. 
+  It assigns a probability to each possible value the random variable can take.PMFs are widely used in probability theory, statistics, machine learning, queueing theory, and reliability engineering
+  .Assigns probabilities to discrete random variables.Mathematical Definition
+Let X be a discrete random variable. The Probability Mass Function is defined as:
+P(X = x) = f(x)
+where:
+f(x) ≥ 0 for all x
+Σ f(x) = 1 (sum over all possible x)Applications of PMF
+🎲 Modeling dice, cards, and lotteries
+📊 Discrete probability distributions (Binomial, Poisson)
+📦 Quality control and defect analysis
+📡 Network packet transmission analysis
+🤖 Machine learning (Naïve Bayes models)</p>
 
 <h3>Probability Density Function (PDF)</h3>
-<p>Describes probabilities of continuous variables.</p>
+<p>Describes probabilities of continuous variables.A Probability Density Function (PDF) describes the probability distribution of a continuous random variable.
+For a continuous random variable X, the probability that X lies between two values a and b is:
+P(a ≤ X ≤ b) = ∫ab f(x) dx
+f(x) ≥ 0 for all x
+∫-∞∞ f(x) dx = 1
+P(X = x) = 0 for continuous variablesExample of PDF (Uniform Distribution)
+Problem:
+Let X be the lifetime (in hours) of a light bulb. Assume X is uniformly distributed between 0 and 10 hours.
+PDF:
+f(x) = 1/10 ,   0 ≤ x ≤ 10
+f(x) = 0 ,   otherwise
+Find: P(3 ≤ X ≤ 7)
+Solution:
+P(3 ≤ X ≤ 7) = ∫37 1/10 dx
+= (1/10) × (7 − 3)
+= 0.4
+✔ Therefore, the probability that the bulb lasts between 3 and 7 hours is 0.4.</p>
 
-<h3>Cumulative Distribution Function (CDF)</h3>
+<h3>Cumulative Distribution Function (CDF)Cumulative Distribution Function (CDF)
+The Cumulative Distribution Function (CDF) of a random variable X gives the probability that X takes a value less than or equal to a given number.
+It is denoted by F(x) and is defined for both discrete and continuous random variables.Mathematical Definition
+F(x) = P(X ≤ x)
+For Discrete Random Variable
+F(x) = Σ P(X = xᵢ) ,   for all xᵢ ≤ x
+For Continuous Random Variable
+F(x) = ∫-∞x f(t) dt</h3>
 <p>Probability that variable ≤ value.</p>
 
 <h3>Binomial, Poisson & Normal Distributions</h3>
-<p>Common distributions used in real data analysis.</p>
-
+<p>Common distributions used in real data analysis.Mean, Variance, and Standard Deviation are fundamental statistical measures used to describe the central tendency and dispersion of a random variable.
+These measures are applicable to both discrete and continuous random variables and play a key role in probability distributions.Binomial Distribution
+A binomial distribution models the number of successes in n independent trials, each with probability p.
+Formulas
+Mean: μ = np
+Variance: σ² = npq
+Standard Deviation: σ = √(npq)
+Solved Example
+n = 10, p = 0.4
+μ = 10 × 0.4 = 4
+σ² = 10 × 0.4 × 0.6 = 2.4
+σ = √2.4 ≈ 1.55</p>
 <a href="index.html">⬅ Back to Home</a>
 </div>
   <a href="index.html">⬅ Back to Home</a>
