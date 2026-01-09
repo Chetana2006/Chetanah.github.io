@@ -1,77 +1,94 @@
-<link rel="stylesheet" href="style.css">
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chapter 4 – Statistical Inference</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-<div class="card">
-<h2>Chapter 4: Statistical Inference</h2>
 
-<h3>Sampling Methods</h3>
-<p>Select representative data from a population (Random, Stratified, Systematic)Probability sampling is a method of sampling in which every unit of the population has a known and non-zero probability of being selected.
-These methods are widely used in statistics because they produce unbiased and reliable results.Types of Probability Sampling
-Simple Random Sampling
-Systematic Sampling
-Stratified Sampling
-Cluster Sampling
-.</p>
+  <div class="container">
+    <div class="card">
 
-<h3>Confidence Intervals</h3>
-<p>Estimate population parameters with a given confidence level.A confidence interval is a range of values used to estimate an unknown population parameter such as mean or proportion.
-It provides an interval within which the true population parameter is expected to lie with a specified level of confidence.Common confidence levels are 90%, 95%, and 99%.
-General Formula
+      <h2>Chapter 4: Statistical Inference</h2>
+
+      <h3>Sampling Methods</h3>
+      <p>
+        Select representative data from a population using methods such as Random, Stratified, or Systematic sampling. 
+        Probability sampling ensures every unit has a known, non-zero chance of being selected, producing unbiased and reliable results.
+      </p>
+      <p><strong>Types of Probability Sampling:</strong></p>
+      <ul>
+        <li>Simple Random Sampling</li>
+        <li>Systematic Sampling</li>
+        <li>Stratified Sampling</li>
+        <li>Cluster Sampling</li>
+      </ul>
+
+      <h3>Confidence Intervals</h3>
+      <p>
+        A confidence interval estimates an unknown population parameter (mean, proportion) within a specified confidence level (commonly 90%, 95%, 99%).  
+      </p>
+      <pre>
+General Formula:
 Confidence Interval = Point Estimate ± Margin of Error
-Margin of Error = Critical Value × Standard Erro</p>
+Margin of Error = Critical Value × Standard Error
+      </pre>
 
-<h3>Sample Size Determination</h3>
-<p>Calculate how much data is needed for accurate resultsSample size determination is the process of selecting an appropriate number of observations or subjects from a population to ensure reliable and accurate statistical results.
-Choosing the correct sample size is essential because:
-Too small a sample gives unreliable results
-Too large a sample increases cost and time
-Correct sample size balances accuracy and efficiency
-  Sample Size for Estimating Mean
-When estimating a population mean with known standard deviation, the sample size is calculated using the following formula:
-n = ( zα/2 · σ / E )²
+      <h3>Sample Size Determination</h3>
+      <p>
+        Sample size determination ensures reliable statistical results:
+      </p>
+      <ul>
+        <li>Too small → unreliable results</li>
+        <li>Too large → increases cost and time</li>
+        <li>Correct sample size → balances accuracy and efficiency</li>
+      </ul>
+      <p><strong>Sample Size for Estimating Mean:</strong></p>
+      <pre>
+Formula:
+n = ( zα/2 × σ / E )²
+
 Where:
 n = required sample size
 zα/2 = critical value for confidence level
 σ = population standard deviation
 E = allowable error (margin of error)
-example 1: Sample Size for Mean
+      </pre>
+      <p><strong>Example:</strong></p>
+      <pre>
 Given:
-Population standard deviation (σ) = 10
-Margin of error (E) = 2
-Confidence level = 95%
-Solution:For 95% confidence level, zα/2 = 1.96
+σ = 10, E = 2, Confidence level = 95%
+zα/2 = 1.96
+
 n = (1.96 × 10 / 2)²
 n = (9.8)² = 96.04
-Required Sample Size:
-n ≈ 97 (rounded up).</p>
+Required Sample Size: n ≈ 97 (rounded up)
+      </pre>
 
-<h3>Hypothesis Testing</h3>
-<p>Decision-making process using sample data to accept or reject a hypothesis.</p>
+      <h3>Hypothesis Testing</h3>
+      <p>
+        Hypothesis testing is a decision-making process using sample data to accept or reject a hypothesis about a population parameter.
+      </p>
 
-<h3>Z-test & t-test</h3>
-<p>Tests used to compare sample and population meansHypothesis testing is a statistical procedure used to make decisions about population parameters based on sample data.
-A Z-test is used to test hypotheses about a population mean or proportion when the sample size is large (n ≥ 30) or when the population standard deviation is known.
-  When to Use Z-Test
-Sample size is large (n ≥ 30)
-Population standard deviation (σ) is known
-Data is approximately normally distributed
-Observations are independent
-  When to Use Z-Test
-Sample size is large (n ≥ 30)
-Population standard deviation (σ) is known
-Data is approximately normally distributed
-Observations are independent.</p>
+      <h3>Z-test & t-test</h3>
+      <p>
+        These tests compare sample and population means:
+      </p>
+      <ul>
+        <li>
+          <strong>Z-Test:</strong> Used when sample size is large (n ≥ 30) or population standard deviation (σ) is known. Data should be approximately normally distributed and observations independent.
+        </li>
+        <li>
+          <strong>t-Test:</strong> Used when sample size is small (n < 30) and population standard deviation is unknown. Assumes data is approximately normally distributed.
+        </li>
+      </ul>
 
-<a href="index.html">⬅ Back to Home</a>
-</div>
-</div>
+      <a href="index.html">⬅ Back to Home</a>
+
+    </div>
+  </div>
+
 </body>
 </html>
-<a href="index.html">⬅ Back to Home</a>
-
