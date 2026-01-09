@@ -5,29 +5,32 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="container">
 <div class="card">
 <h2>Chapter 2: Probability</h2>
 
 <h3>Definition of Probability</h3>
-<p>Probability measures the likelihood of an event occurring.</p>
+<p>Probability is the likelihood that an event will occur (0 ≤ P ≤ 1).</p>
 
 <h3>Types of Events</h3>
-<p>Events can be simple, compound, independent, dependent, mutually exclusive, or exhaustive.</p>
+<ul>
+<li>Simple Event</li>
+<li>Compound Event</li>
+<li>Independent & Dependent Events</li>
+<li>Mutually Exclusive Events</li>
+</ul>
 
 <h3>Addition & Multiplication Rules</h3>
-<p>These rules calculate probabilities of combined events.</p>
+<p>Used to calculate probability of combined events.</p>
 
 <h3>Conditional Probability</h3>
-<p>It measures the probability of an event given another event has occurred.</p>
+<p>Probability of an event given another event has occurred: P(A|B) = P(A∩B)/P(B)</p>
 
 <h3>Bayes’ Theorem</h3>
-<p>Bayes’ theorem updates probabilities using prior knowledge.</p>
+<p>Updates probability based on prior knowledge: P(A|B) = [P(B|A) × P(A)] / P(B)</p>
 
 <a href="index.html">⬅ Back to Home</a>
 </div>
 </div>
-
 </body>
 </html>
