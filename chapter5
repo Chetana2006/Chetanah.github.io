@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chapter 5 – Practical Learning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<div class="card">
+<h2>Chapter 5: Laboratory Work & Practical Learning</h2>
+
+<h3>Python-based Data Analysis</h3>
+<p>Python tools were used to analyze datasets.</p>
+
+<h3>Data Cleaning & Visualization</h3>
+<p>Removing errors and visualizing data using graphs.</p>
+
+<h3>Histogram & Boxplot Generation</h3>
+<p>Used for understanding distribution patterns.</p>
+
+<h3>Hypothesis Testing Using Real Data</h3>
+<p>Applied tests on real-world datasets.</p>
+
+<a href="index.html">⬅ Back to Home</a>
+</div>
+</div>
+
+</body>
+</html>
 
