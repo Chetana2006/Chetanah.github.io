@@ -1,1 +1,57 @@
+<section>
+  <h2>Chapter 1: Description of Data</h2>
 
+  <h3>1.1 Types of Data and Variables</h3>
+  <p>
+    Data refers to a collection of facts, numbers, or observations used for analysis.
+    Data can be classified into qualitative (categorical) and quantitative (numerical).
+    Quantitative data can further be divided into discrete and continuous data.
+  </p>
+
+  <h3>1.2 Measures of Central Tendency</h3>
+  <p>
+    Measures of central tendency describe the central value of a dataset.
+    The most commonly used measures are:
+  </p>
+  <ul>
+    <li><strong>Mean:</strong> The average of all observations</li>
+    <li><strong>Median:</strong> The middle value when data is arranged in order</li>
+    <li><strong>Mode:</strong> The most frequently occurring value</li>
+  </ul>
+
+  <h3>1.3 Measures of Dispersion</h3>
+  <p>
+    Measures of dispersion indicate how spread out the data values are.
+    They help understand the variability within a dataset.
+  </p>
+  <ul>
+    <li>Range</li>
+    <li>Mean Deviation</li>
+    <li>Variance</li>
+    <li>Standard Deviation</li>
+  </ul>
+
+  <h3>1.4 Skewness and Data Distribution</h3>
+  <p>
+    Skewness describes the asymmetry of a data distribution.
+    A distribution can be positively skewed, negatively skewed, or symmetrical.
+    Understanding skewness helps in interpreting real-world data behavior.
+  </p>
+
+  <h3>1.5 Data Visualization</h3>
+  <p>
+    Data visualization involves representing data in graphical form
+    to make interpretation easier. Common visualization techniques include:
+  </p>
+  <ul>
+    <li>Bar Charts</li>
+    <li>Pie Charts</li>
+    <li>Histograms</li>
+    <li>Line Graphs</li>
+  </ul>
+
+  <p>
+    Visualization techniques help in identifying patterns, trends,
+    and relationships within the data effectively.
+  </p>
+</section>
