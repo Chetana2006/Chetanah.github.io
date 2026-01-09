@@ -5,30 +5,28 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="container">
 <div class="card">
 <h2>Chapter 3: Random Variables & Distributions</h2>
 
 <h3>Discrete & Continuous Variables</h3>
-<p>Discrete variables take finite values; continuous variables take infinite values.</p>
+<p>Discrete variables have countable values; continuous have infinite values.</p>
 
 <h3>Probability Mass Function (PMF)</h3>
-<p>PMF assigns probabilities to discrete random variables.</p>
+<p>Assigns probabilities to discrete random variables.</p>
 
 <h3>Probability Density Function (PDF)</h3>
-<p>PDF describes probability distribution for continuous variables.</p>
+<p>Describes probabilities of continuous variables.</p>
 
 <h3>Cumulative Distribution Function (CDF)</h3>
-<p>CDF gives probability that a variable is less than or equal to a value.</p>
+<p>Probability that variable ≤ value.</p>
 
 <h3>Binomial, Poisson & Normal Distributions</h3>
-<p>These are widely used probability distributions in statistics.</p>
+<p>Common distributions used in real data analysis.</p>
 
 <a href="index.html">⬅ Back to Home</a>
 </div>
 </div>
-
 </body>
 </html>
 
